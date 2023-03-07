@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Gracias por contactarnos</h1>
+    <p>Hemos recibido la siguiente información del empleado:</p>
+    <ul>
+        <li><strong>Id:</strong> <span th:text="${empleado.id}"></span></li>
+        <li><strong>Nombre:</strong> <span th:text="${empleado.nombre}"></span></li>
+        <li><strong>Apellido:</strong> <span th:text="${empleado.apellido}"></span></li>
+        <li><strong>Correo electrónico:</strong> <span th:text="${empleado.correo}"></span></li>
+        <li><strong>dirección:</strong> <span th:text="${empleado.direccion}"></span></li>
+        <li><strong>Teléfono:</strong> <span th:text="${empleado.telefono}"></span></li>
+    </ul>
+</body>
+</html>
